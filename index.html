@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مهامي اليوم</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <h1>مهامي اليوم</h1>
+
+  <label for="task">المهمة الجديدة</label>
+  <input id="task" type="text" placeholder="اكتب مهمة">
+  <button type="button" class="add-button" id="add-button">إضافة</button>
+  <button type="button" class="clear-button" id="clear-button">مسح</button>
+<button type="button" id="delete-completed">حذف المكتملة</button>
+
+
+  <ul id="task-list">
+    <li>تعلّم HTML</li>
+    <li>قراءة عشر صفحات</li>
+    <li>المشي لمدة ٢٠ دقيقة</li>
+    <li>انجاز الاعمال المتفق عليها</li>
+  </ul>
+      <p>المهام المتبقية: <span id="remaining-count"></span></p>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
